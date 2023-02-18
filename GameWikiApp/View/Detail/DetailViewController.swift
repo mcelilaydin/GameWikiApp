@@ -1,6 +1,6 @@
 //
 //  DetailViewController.swift
-//  GameApp
+//  GameWikiApp
 //
 //  Created by Celil Aydın on 6.02.2023.
 //
