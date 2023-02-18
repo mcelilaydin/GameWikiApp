@@ -1,6 +1,6 @@
 //
 //  UIAnimatable.swift
-//  GameApp
+//  GameWikiApp
 //
 //  Created by Celil Aydın on 5.02.2023.
 //
