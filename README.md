@@ -21,7 +21,7 @@
 - Loaf
 - SCLAlertView
 - PaperOnboarding
-- Localizable
+- Localization
 
 ## Requirements 🛠️
 
