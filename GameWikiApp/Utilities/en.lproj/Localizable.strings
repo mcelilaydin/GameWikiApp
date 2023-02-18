@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  GameWikiApp
+
+  Created by Celil Aydın on 18.02.2023.
+  
+*/
+"LocalizableString_HomeScreenTitle" = "Home";
+"LocalizableString_DetailScreenTitle" = "Game Detail";
+"LocalizableString_FavoriteScreenTitle" = "Favorite";
+"LocalizableString_SearchScreenTitle" = "Search";
+"LocalizableString_Success" = "Success";
+"LocalizableString_Error" = "Error";
+"LocalizableString_DeletedAlertMessage" = "Deleted To Favorites";
+"LocalizableString_dataNotFound" = "Game Not Found";
+"LocalizableString_EnterGame" = "Enter a game name";
+"LocalizableString_Started" = "Started";
+"LocalizableString_Next" = "Next";
+"LocalizableString_SearchGame" = "Search Game";
+"LocalizableString_OnboardingSearchDesc" = "User searches for games.";
+"LocalizableString_FavoriteGame" = "Favorite Game";
+"LocalizableString_OnboardingFavoDesc" = "User adds the game to favorite.";
+"LocalizableString_OnboardingDetailDesc" = "User displays the detail of the game.";
+"LocalizableString_SwipeRight" = "Please swipe to right.";
+"LocalizableString_AddFavorite" = "Add Favorite Game";
+"LocalizableString_AddedFavorite" = "Added To Favorites";
+"LocalizableString_SearchPlaceholder" = "Search game name";

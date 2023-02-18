@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  GameWikiApp
+
+  Created by Celil Aydın on 18.02.2023.
+  
+*/
+"LocalizableString_HomeScreenTitle" = "Ana Sayfa";
+"LocalizableString_DetailScreenTitle" = "Oyun Detay";
+"LocalizableString_FavoriteScreenTitle" = "Favoriler";
+"LocalizableString_SearchScreenTitle" = "Arama Sayfası";
+"LocalizableString_Success" = "Başarılı";
+"LocalizableString_Error" = "Hata";
+"LocalizableString_DeletedAlertMessage" = "Favorilerden silindi";
+"LocalizableString_DataNotFound" = "Oyun Bulunamadı";
+"LocalizableString_EnterGame" = "Oyun ismi yazınız";
+"LocalizableString_Started" = "Başlat";
+"LocalizableString_Next" = "Geç";
+"LocalizableString_SearchGame" = "Oyun Ara";
+"LocalizableString_OnboardingSearchDesc" = "Kullanıcı oyunları arar";
+"LocalizableString_FavoriteGame" = "Favoriye Alınan Oyun";
+"LocalizableString_OnboardingFavoDesc" = "Kullanıcı oyunu favorilere ekler.";
+"LocalizableString_OnboardingDetailDesc" = "Kullanıcı oyunun ayrıntılarını görüntüler.";
+"LocalizableString_SwipeRight" = "Lütfen Sağa Sürükleyin.";
+"LocalizableString_AddFavorite" = "Favori Oyun Ekleyin";
+"LocalizableString_AddedFavorite" = "Favorilere Eklendi";
+"LocalizableString_SearchPlaceholder" = "Oyun arayın";

@@ -1,0 +1,30 @@
+PODS:
+  - Loaf (0.7.0)
+  - MBProgressHUD (1.2.0)
+  - SCLAlertView (0.8)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
+
+DEPENDENCIES:
+  - Loaf
+  - MBProgressHUD
+  - SCLAlertView
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Loaf
+    - MBProgressHUD
+    - SCLAlertView
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Loaf: d69937cd00649f3fa260beb8b7aef0a1feb861ef
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
+
+PODFILE CHECKSUM: 08ac1e6edb5708c81b20b7bb9161d351c5ff0e05
+
+COCOAPODS: 1.11.2

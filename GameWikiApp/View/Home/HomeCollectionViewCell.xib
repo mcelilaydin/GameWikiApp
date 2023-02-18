@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="homeCell" id="gTV-IL-0wX" customClass="HomeCollectionViewCell" customModule="GameApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="356" height="381"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="356" height="381"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LpQ-Fo-PRw">
+                        <rect key="frame" x="0.0" y="0.0" width="356" height="381"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Qr5-69-uVp">
+                                <rect key="frame" x="16" y="16" width="324" height="349"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="peE-ki-7N4">
+                                        <rect key="frame" x="0.0" y="0.0" width="324" height="174.66666666666666"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u94-KO-s35">
+                                        <rect key="frame" x="0.0" y="174.66666666666663" width="324" height="174.33333333333337"/>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                        <color key="textColor" systemColor="systemIndigoColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Qr5-69-uVp" secondAttribute="bottom" constant="16" id="DSx-3Q-ngW"/>
+                            <constraint firstItem="Qr5-69-uVp" firstAttribute="leading" secondItem="LpQ-Fo-PRw" secondAttribute="leading" constant="16" id="dw2-aJ-GqD"/>
+                            <constraint firstItem="Qr5-69-uVp" firstAttribute="top" secondItem="LpQ-Fo-PRw" secondAttribute="top" constant="16" id="mlz-j1-sEG"/>
+                            <constraint firstAttribute="trailing" secondItem="Qr5-69-uVp" secondAttribute="trailing" constant="16" id="xmH-3J-5zC"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="LpQ-Fo-PRw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Exv-mg-VY8"/>
+                <constraint firstItem="LpQ-Fo-PRw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="TVU-Ed-99G"/>
+                <constraint firstAttribute="trailing" secondItem="LpQ-Fo-PRw" secondAttribute="trailing" id="aue-Bf-y6p"/>
+                <constraint firstAttribute="bottom" secondItem="LpQ-Fo-PRw" secondAttribute="bottom" id="gBb-By-Iln"/>
+            </constraints>
+            <size key="customSize" width="356" height="381"/>
+            <connections>
+                <outlet property="gameImageView" destination="peE-ki-7N4" id="Tlh-ND-mWZ"/>
+                <outlet property="gameNameLabel" destination="u94-KO-s35" id="Owc-Hb-Xhk"/>
+            </connections>
+            <point key="canvasLocation" x="119.08396946564885" y="-102.46478873239437"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

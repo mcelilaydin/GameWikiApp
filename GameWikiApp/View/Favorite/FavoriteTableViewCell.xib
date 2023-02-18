@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="favoriteCell" rowHeight="100" id="KGk-i7-Jjw" customClass="FavoriteTableViewCell" customModule="GameApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ORO-Yd-jzT">
+                        <rect key="frame" x="327" y="10.666666666666668" width="22" height="57.666666666666657"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <imageReference key="image" image="star.fill" catalog="system" symbolScale="medium" variableValue="0.0"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UbP-cH-jqO">
+                        <rect key="frame" x="4" y="4" width="319" height="72"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ORO-Yd-jzT" secondAttribute="bottom" constant="11" id="DJK-KZ-SVe"/>
+                    <constraint firstAttribute="bottom" secondItem="UbP-cH-jqO" secondAttribute="bottom" constant="4" id="Gyt-U2-hA7"/>
+                    <constraint firstAttribute="trailing" secondItem="ORO-Yd-jzT" secondAttribute="trailing" constant="4" id="dGF-U1-Piq"/>
+                    <constraint firstItem="UbP-cH-jqO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="deZ-W6-VTS"/>
+                    <constraint firstItem="ORO-Yd-jzT" firstAttribute="leading" secondItem="UbP-cH-jqO" secondAttribute="trailing" constant="4" id="dvX-89-cCK"/>
+                    <constraint firstItem="ORO-Yd-jzT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="qGd-20-wqr"/>
+                    <constraint firstItem="UbP-cH-jqO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="uXj-Fy-tWH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="favoriteImageView" destination="ORO-Yd-jzT" id="5Gh-De-k32"/>
+                <outlet property="favoriteNameLabel" destination="UbP-cH-jqO" id="jM7-rA-TfD"/>
+            </connections>
+            <point key="canvasLocation" x="-38.931297709923662" y="-7.042253521126761"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+    </resources>
+</document>
