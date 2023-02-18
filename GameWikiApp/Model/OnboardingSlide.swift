@@ -1,6 +1,6 @@
 //
 //  OnboardingSlide.swift
-//  GameApp
+//  GameWikiApp
 //
 //  Created by Celil Aydın on 4.02.2023.
 //
