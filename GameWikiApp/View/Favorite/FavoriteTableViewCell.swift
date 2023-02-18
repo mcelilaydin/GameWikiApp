@@ -1,6 +1,6 @@
 //
 //  FavoriteTableViewCell.swift
-//  GameApp
+//  GameWikiApp
 //
 //  Created by Celil Aydın on 7.02.2023.
 //

@@ -1,6 +1,6 @@
 //
 //  FavoritePlaceholderView.swift
-//  GameApp
+//  GameWikiApp
 //
 //  Created by Celil Aydın on 8.02.2023.
 //
